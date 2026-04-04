@@ -1,0 +1,5 @@
+{
+  "name": "SVAR 2026 - Obsidian & Gold",
+  "description": "A premium event management platform for Shri Vishvakarma Arvachin Rasotsav 2026, featuring ultra-luxury design, user verification, booking engine, and admin portal.",
+  "requestFramePermissions": ["camera"]
+}

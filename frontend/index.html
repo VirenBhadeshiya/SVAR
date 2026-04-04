@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SVAR 2026 | Shri Vishwakarma Arvachin Rasotsav</title>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        background-color: #F8FAFC; 
+        color: #20324C; 
+      }
+      
+      /* Primary Button: MAROON RED */
+      .btn-viren-filled {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.75rem 2rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        font-size: 0.875rem;
+        background: #731515; 
+        color: #FFFFFF;
+        border: 1px solid #731515;
+        overflow: hidden;
+        border-radius: 4px;
+        z-index: 1;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+      
+      .btn-viren-filled::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background: #8E2121; 
+        transition: width 0.3s ease-out;
+        z-index: -1;
+      }
+
+      .btn-viren-filled:hover::before {
+        width: 100%;
+      }
+
+      .btn-viren-filled:hover {
+        box-shadow: 0 10px 15px -3px rgba(115, 21, 21, 0.3);
+        transform: translateY(-1px);
+      }
+
+      /* Secondary Button: NAVY OUTLINE */
+      .btn-viren {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.75rem 2rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        font-size: 0.875rem;
+        color: #20324C; 
+        background: transparent;
+        border: 1px solid #20324C;
+        overflow: hidden;
+        transition: all 0.3s ease;
+        border-radius: 4px;
+        z-index: 1;
+        cursor: pointer;
+      }
+
+      .btn-viren::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background: #20324C; 
+        transition: width 0.3s ease-out;
+        z-index: -1;
+      }
+
+      .btn-viren:hover::before {
+        width: 100%;
+      }
+
+      .btn-viren:hover {
+        color: #FFFFFF;
+        box-shadow: 0 4px 6px -1px rgba(32, 50, 76, 0.2);
+      }
+
+      /* Secondary Button: WHITE OUTLINE */
+      .btn-viren-white {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.75rem 2rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        font-size: 0.875rem;
+        color: #FFFFFF; 
+        background: transparent;
+        border: 1px solid #FFFFFF;
+        overflow: hidden;
+        transition: all 0.3s ease;
+        border-radius: 4px;
+        z-index: 1;
+        cursor: pointer;
+      }
+
+      .btn-viren-white::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background: #20324C; 
+        transition: width 0.3s ease-out;
+        z-index: -1;
+      }
+
+      .btn-viren-white:hover::before {
+        width: 100%;
+      }
+
+      .btn-viren-white:hover {
+        color: #FFFFFF;
+        border-color: #20324C;
+        box-shadow: 0 4px 6px -1px rgba(32, 50, 76, 0.2);
+      }
+
+      /* Logo Animation - Medium Speed (3.5s) */
+      .path-animate {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: dash 3.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+      }
+      @keyframes dash {
+        to { stroke-dashoffset: 0; }
+      }
+    </style>
+    <link rel="stylesheet" href="/index.css">
+  </head>
+  <body>
+    <script>
+      // PERMANENT WEBSOCKET & HMR ERROR SUPPRESSION
+      // This script catches and silences WebSocket errors that occur in this environment
+      (function() {
+        const originalError = console.error;
+        const originalWarn = console.warn;
+        const originalLog = console.log;
+        
+        const isIgnoredMessage = (msg) => {
+          if (!msg) return false;
+          const s = String(msg).toLowerCase();
+          return s.includes('websocket') || 
+                 s.includes('hmr') || 
+                 s.includes('sockjs') || 
+                 s.includes('closed without opened') ||
+                 s.includes('failed to connect') ||
+                 s.includes('vite:hmr');
+        };
+
+        console.error = function(...args) {
+          const msg = args.join(' ');
+          if (isIgnoredMessage(msg)) return;
+          originalError.apply(console, args);
+        };
+        
+        console.warn = function(...args) {
+          const msg = args.join(' ');
+          if (isIgnoredMessage(msg)) return;
+          originalWarn.apply(console, args);
+        };
+
+        console.log = function(...args) {
+          const msg = args.join(' ');
+          if (isIgnoredMessage(msg)) return;
+          originalLog.apply(console, args);
+        };
+
+        window.addEventListener('error', function(e) {
+          if (e.message && isIgnoredMessage(e.message)) {
+            e.stopImmediatePropagation();
+            e.preventDefault();
+          }
+        }, true);
+
+        window.addEventListener('unhandledrejection', function(event) {
+          try {
+            const reason = event.reason;
+            const message = (reason && typeof reason === 'object') ? (reason.message || reason.name) : String(reason);
+            if (isIgnoredMessage(message) || isIgnoredMessage(String(reason))) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+          } catch (e) {}
+        }, true);
+      })();
+    </script>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

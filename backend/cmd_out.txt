@@ -1,0 +1,9 @@
+Database pool created
+MySQL connection failed. Falling back to JSON storage. This is expected if MySQL is not running.
+CRITICAL: Unhandled Rejection at: Promise {
+  <rejected> ReferenceError: __dirname is not defined
+      at startServer (C:\Users\viren\SVAR\backend\server.ts:427:39)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+} reason: ReferenceError: __dirname is not defined
+    at startServer (C:\Users\viren\SVAR\backend\server.ts:427:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)

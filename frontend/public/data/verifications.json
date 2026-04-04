@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1773638327181,
+    "user_id": "SVAR-101",
+    "name": "Viren Bhadeshiya",
+    "aadhaar_number": "2873 5851 9889",
+    "aadhaar_image_path": "./public/uploads/aadhaar-1773638327175.jpg",
+    "selfie_image_path": "./public/uploads/selfie-1773638327178.jpg",
+    "face_match_score": 51,
+    "verification_status": "pending",
+    "created_at": "2026-03-16T05:18:47.181Z"
+  },
+  {
+    "id": 1773639233498,
+    "user_id": "SVAR-102",
+    "name": "Viren Bhadeshiya",
+    "aadhaar_number": "2873 5851 9889",
+    "aadhaar_image_path": "./public/uploads/aadhaar-1773639233491.jpg",
+    "selfie_image_path": "./public/uploads/selfie-1773639233494.jpg",
+    "face_match_score": 49,
+    "verification_status": "pending",
+    "created_at": "2026-03-16T05:33:53.498Z"
+  },
+  {
+    "id": 1773639354373,
+    "user_id": "SVAR-103",
+    "name": "Viren Bhadeshiya",
+    "aadhaar_number": "2873 5851 9889",
+    "aadhaar_image_path": "./public/uploads/aadhaar-1773639354367.jpg",
+    "selfie_image_path": "./public/uploads/selfie-1773639354369.jpg",
+    "face_match_score": 48,
+    "verification_status": "pending",
+    "created_at": "2026-03-16T05:35:54.373Z"
+  },
+  {
+    "id": 1773640528404,
+    "user_id": "SVAR-104",
+    "name": "Viren Bhadeshiya",
+    "aadhaar_number": "2873 5851 9889",
+    "aadhaar_image_path": "./public/uploads/aadhaar-1773640528401.jpg",
+    "selfie_image_path": "./public/uploads/selfie-1773640528403.jpg",
+    "face_match_score": 48,
+    "verification_status": "pending",
+    "created_at": "2026-03-16T05:55:28.404Z"
+  },
+  {
+    "id": 1773677959821,
+    "user_id": "SVAR-105",
+    "name": "Viren Bhadeshiya",
+    "aadhaar_number": "2873 5851 9889",
+    "aadhaar_image_path": "./public/uploads/aadhaar-1773677959813.jpg",
+    "selfie_image_path": "./public/uploads/selfie-1773677959817.jpg",
+    "face_match_score": 48,
+    "verification_status": "pending",
+    "created_at": "2026-03-16T16:19:19.821Z"
+  },
+  {
+    "id": 1773678457583,
+    "user_id": "SVAR-106",
+    "name": "Viren Bhadeshiya",
+    "aadhaar_number": "2873 5851 9889",
+    "aadhaar_image_path": "./public/uploads/aadhaar-1773678457579.jpg",
+    "selfie_image_path": "./public/uploads/selfie-1773678457580.jpg",
+    "face_match_score": 46,
+    "verification_status": "pending",
+    "created_at": "2026-03-16T16:27:37.583Z"
+  },
+  {
+    "id": 1773900171638,
+    "user_id": "SVAR-107",
+    "name": "Viren Bhadeshiya",
+    "aadhaar_number": "2873 5851 9889",
+    "aadhaar_image_path": "./public/uploads/aadhaar-1773900171632.jpg",
+    "selfie_image_path": "./public/uploads/selfie-1773900171634.jpg",
+    "face_match_score": 46,
+    "verification_status": "pending",
+    "created_at": "2026-03-19T06:02:51.638Z"
+  },
+  {
+    "id": 1773900569694,
+    "user_id": "SVAR-108",
+    "name": "Viren Bhadeshiya",
+    "aadhaar_number": "2873 5851 9889",
+    "aadhaar_image_path": "./public/uploads/aadhaar-1773900569689.jpg",
+    "selfie_image_path": "./public/uploads/selfie-1773900569690.jpg",
+    "face_match_score": 49,
+    "verification_status": "pending",
+    "created_at": "2026-03-19T06:09:29.694Z"
+  },
+  {
+    "id": 1773900690797,
+    "user_id": "SVAR-109",
+    "name": "Viren Bhadeshiya",
+    "aadhaar_number": "2873 5851 9889",
+    "aadhaar_image_path": "./public/uploads/aadhaar-1773900690791.jpg",
+    "selfie_image_path": "./public/uploads/selfie-1773900690795.jpg",
+    "face_match_score": 48,
+    "verification_status": "pending",
+    "created_at": "2026-03-19T06:11:30.797Z"
+  },
+  {
+    "id": 1773900950102,
+    "user_id": "SVAR-110",
+    "name": "Viren Bhadeshiya",
+    "aadhaar_number": "2873 5851 9889",
+    "aadhaar_image_path": "./public/uploads/aadhaar-1773900950097.jpg",
+    "selfie_image_path": "./public/uploads/selfie-1773900950099.jpg",
+    "face_match_score": 49,
+    "verification_status": "pending",
+    "created_at": "2026-03-19T06:15:50.102Z"
+  },
+  {
+    "id": 1773901149857,
+    "user_id": "SVAR-111",
+    "name": "Viren Bhadeshiya",
+    "aadhaar_number": "2873 5851 9889",
+    "aadhaar_image_path": "./public/uploads/aadhaar-1773901149853.jpg",
+    "selfie_image_path": "./public/uploads/selfie-1773901149855.jpg",
+    "face_match_score": 47,
+    "verification_status": "pending",
+    "created_at": "2026-03-19T06:19:09.857Z"
+  },
+  {
+    "id": 1774068513248,
+    "user_id": "SVAR-112",
+    "name": "Viren Bhadeshiya",
+    "aadhaar_number": "2873 5851 9889",
+    "aadhaar_image_path": "./public/uploads/aadhaar-1774068513238.jpg",
+    "selfie_image_path": "./public/uploads/selfie-1774068513242.jpg",
+    "face_match_score": 50,
+    "verification_status": "approved",
+    "created_at": "2026-03-21T04:48:33.248Z"
+  }
+]
