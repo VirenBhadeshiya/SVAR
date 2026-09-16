@@ -19,13 +19,6 @@ dist-ssr/
 *.tsbuildinfo
 .vite/
 
-# Environment files and credentials
-.env
-.env.*
-!.env.example
-*.env
-*.env.local
-
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -37,10 +30,6 @@ dist-ssr/
 *.sln
 *.sw?
 *.local
-
-# User uploads & media
-backend/public/uploads/*
-!backend/public/uploads/.gitkeep
 
 # Python cache
 __pycache__/
