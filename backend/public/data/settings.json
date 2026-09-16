@@ -1,0 +1,15 @@
+{
+  "registrationOpen": true,
+  "passDownloadEnabled": true,
+  "parkingFull": true,
+  "eventStartDate": "2026-10-15T18:00",
+  "eventEndDate": "2026-10-24T23:59",
+  "prices": {
+    "MALE_PASS": 600,
+    "FEMALE_PASS": 500,
+    "TWO_WHEELER": 100,
+    "FOUR_WHEELER": 200
+  },
+  "lastAnnouncement": "",
+  "lastAnnouncementTime": ""
+}

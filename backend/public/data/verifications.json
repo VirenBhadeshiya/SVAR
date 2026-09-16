@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1788449835899,
+    "user_id": "SVAR-104",
+    "name": "Viren Bhadeshiya",
+    "aadhaar_number": "2873 5851 9889",
+    "aadhaar_image_path": "/uploads/aadhaar-1788449835891.jpg",
+    "selfie_image_path": "/uploads/selfie-1788449835893.jpg",
+    "face_match_score": 45,
+    "verification_status": "pending",
+    "created_at": "2026-09-03T15:37:15.899Z"
+  }
+]
